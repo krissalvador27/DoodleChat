@@ -1,0 +1,11 @@
+{
+    "name": "DoodleWars",
+    "version": "0.0.0",
+    "description": "Online pictionary game!",
+    "dependencies": {
+        "socket.io": "0.9.16",
+        "express": "3.2.6",
+        "sanitizer": "0.0.15"
+    },
+    "author": "Kris"
+}

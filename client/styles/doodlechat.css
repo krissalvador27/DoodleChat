@@ -1,0 +1,258 @@
+/* ---------- */
+/*   General  */
+/* ---------- */
+
+body{
+	background-color:#fff; 
+	background-image:
+	linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+	linear-gradient(#eee .1em, transparent .1em);
+	background-size:100% 1.2em;
+	font:16px/1.3 'Segoe UI', Arial, sans-serif;
+	color:#808080;
+}
+
+#main{
+	width:1266px;
+	margin-top:10px;
+}
+
+#status{
+	padding:5px;
+	margin-bottom:10px;
+	padding-left:40px;
+	color:#9ac4cb;
+	font-weight:550;
+	font-size:39px;
+	text-align:center;
+	
+}
+
+/* ---------------------- */
+/* first panel section */
+/* ---------------------- */
+
+#firstpanel{
+	float:left;
+	width:20%;
+	width:262px;
+}
+
+
+#wordtodraw{
+	float:left;
+	background:rgba(255, 255, 255, .85);
+	border-radius:5px;
+	border:1px solid #9ac4cb;
+	width:74%;
+	height:35px;
+	overflow:auto;
+	overflow-x:hidden;
+	font-size:23px;
+	text-align:left;
+	padding-left:5px;
+	padding-top:2px;
+	color:#cb9aac;
+}
+
+#points{
+	background:rgba(255, 255, 255, .85);
+	border-radius:5px;
+	border:1px solid #9ac4cb;
+	width:21%; 
+	height:35px;
+	overflow:auto;
+	overflow-x:hidden;
+	font-size:23px;
+	text-align:center;
+	padding-left:2px;
+	padding-top:2px;
+	padding-right:2px;
+	color:#cb9aac;
+}
+
+
+#chatcontent
+{
+	background:rgba(255, 255, 255, .85);
+	border-radius:5px;
+	border:1px solid #9ac4cb;
+	width:97%;
+	height:643px;
+	overflow:auto;
+	overflow-x:hidden;
+	padding-top:5px;
+	padding-left:10px;
+	padding-bottom:5px;
+}
+
+#chatcontent p{
+	padding:0px;
+	margin-top:0px;
+	margin-bottom:5px;
+}
+
+#chatuser{
+	background:rgba(255, 255, 255, .85);
+	border-radius:2px;
+	border:1px solid #9ac4cb;
+	width:100%;
+	height:25px;
+	font-size:15px;
+	padding-left:10px;
+	color:#808080;
+}
+
+#chatinput{
+	background:rgba(255, 255, 255, .85);
+	border-radius:2px;
+	border:1px solid #9ac4cb;
+	width:100%;
+	height:25px;
+	font-size:15px;
+	padding-left:10px;
+	color:#808080;
+}
+
+#clearchat{
+	border-radius:2px;
+	border:1px solid #ccc;
+	width:100px;
+	height:100px;
+	float:left;
+}
+
+#changenickcolor{
+	border-radius:2px;
+	border:1px solid #ccc;
+	width:100px;
+	height:100px;
+	float:left;
+}
+
+/* -------------------------- */
+/* second panel section */
+/* -------------------------- */
+
+#secondpanel{
+	width:740px;
+	border-radius:2px;
+	background:rgba(255, 255, 255, .4);
+	border:2px solid #9ac4cb;
+	float:left;
+	padding-left:10px;
+}
+
+#canvas{
+	width:740px;
+	cursor:crosshair;
+}
+
+/* ---------------------- */
+/* third panel section */
+/* ---------------------- */
+
+#thirdpanel{
+	float:left;
+	width:180px;
+}
+
+#people{
+	background:rgba(255, 255, 255, .85);
+	border-radius:5px;
+	border:1px solid #9ac5cb;
+	width:100%;
+	height:250px;
+	overflow:auto;
+	overflow-x:hidden;
+	padding-top:5px;
+	padding-left:10px;
+	padding-bottom:5px;
+	text-align:justify;
+}
+
+#people p{
+	padding:0px;
+	margin-top:0px;
+	margin-bottom:5px;
+	font-size:16px;
+}
+
+.color{
+	width:100%;
+	height:35px;
+	text-align:center;
+	font:16px/1.3 'Segoe UI', Arial, sans-serif;
+}
+
+#clearcanvas{
+	background:rgba(255, 255, 255, .85);
+	border-radius:5px;
+	border:1px solid #9ac5cb;
+	width:100%;
+	height:150px;
+	float:left;
+	font:20px/1.3 'Segoe UI', Arial, sans-serif;
+	font-weight:400;
+	color:#cb9aac
+}
+
+#start{
+	background:rgba(255, 255, 255, .85);
+	border-radius:5px;
+	border:1px solid #9ac5cb;
+	width:100%;
+	height:150px;
+	float:left;
+	font:20px/1.3 'Segoe UI', Arial, sans-serif;
+	font-weight:400;
+	color:#cb9aac;
+}
+
+/* ---------------------- */
+/* Round & Welcome section */
+/* ---------------------- */
+
+hgroup{
+	display:none;
+	position:fixed;
+	background-color:rgba(255, 255, 255, 0.1);
+	/*box-shadow:0 0 3px rgba(100, 100, 100, 0.3), 0 3px 1px #D4D4D4;*/
+	width:300px;
+	height:400px;
+	top:36%;
+	left:50%;
+	margin:-120px 0 0 -225px;
+	text-align:center;
+	padding-bottom:50px;
+	padding-left:30px;
+	padding-right:30px;
+	border-radius:30px;
+	
+	color:#9ac4cb;
+}
+
+h1{
+	font-size:34.5px;
+	font-weight:normal;
+}
+
+h2{
+	font-size:21.5px;
+	font-weight:normal;
+	color:#999;
+}
+
+h3{
+	font-size:16px;
+	font-weight:normal;
+	color:#999;
+	text-align:center;
+}
+
+h4{
+	font-size:12px;
+	font-weight:normal;
+	font-style:italic;
+	color:#999;
+}
